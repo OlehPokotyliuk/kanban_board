@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OlehPokotyliuk/kanban_board/static/css/main.87669a82.css",
+    "main.js": "/OlehPokotyliuk/kanban_board/static/js/main.daaac930.js",
+    "index.html": "/OlehPokotyliuk/kanban_board/index.html",
+    "main.87669a82.css.map": "/OlehPokotyliuk/kanban_board/static/css/main.87669a82.css.map",
+    "main.daaac930.js.map": "/OlehPokotyliuk/kanban_board/static/js/main.daaac930.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87669a82.css",
+    "static/js/main.daaac930.js"
+  ]
+}
