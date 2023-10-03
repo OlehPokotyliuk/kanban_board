@@ -1,0 +1,16 @@
+body {
+  font-family: 'Inter', sans-serif,'Pixelify Sans';
+  background-color: #fff;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

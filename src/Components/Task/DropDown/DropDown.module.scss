@@ -1,0 +1,17 @@
+.dropdown{
+  position: relative;
+  span{
+    cursor: pointer;
+  }
+}
+.dropdownContent{
+  position: absolute;
+  font-size: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  .itemList{
+    color: #1b3ac1;
+    padding: 1px 2px;
+    border-bottom: 1px solid #ccc;
+  }
+}

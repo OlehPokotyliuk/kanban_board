@@ -1,0 +1,74 @@
+.taskListWrapper{
+  width: 98.6vw;
+  min-height: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  min-height: 100vh;
+}
+h2{
+  min-height: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.todo,.progress,.hold, .complete{
+  display: flex;
+  width: 24.65vw;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: normal;
+  ul{
+    width: 24vw;
+    height: 500px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    li{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      background-color: #fff;
+      padding: 0 0 0 20px;
+      margin-bottom: 5px;
+      box-shadow: 1.5px 1.5px 1.5px #ccc;
+      min-height: 100px;
+      p{
+        width: 18vw;
+        word-wrap: break-word;
+        font-size: 14px;
+        padding: 0 -40px 0 0;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+}
+}
+.titleTodo{
+  background-color: #4F9CE8;
+};
+.titleProgress{
+  background-color: #9C81E9;
+};
+.titleHold{
+  background-color: #c62b85;
+};
+.titleComplete{
+  background-color: #39CC85;
+};

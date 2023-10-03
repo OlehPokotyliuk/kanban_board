@@ -1,0 +1,38 @@
+.headerWrapper{
+  display: flex;
+  flex-direction: row;
+  width: 98.6vw;
+  min-height: 100px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0079C5;
+  color: #fff;
+  .logo{
+    img{
+      width: 80px;
+  }
+  }
+}
+.form{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  button, input, select, option{
+    border: none;
+    outline: none;
+  }
+  button{
+    background-color: #39CC85;
+    &:active,&:hover{
+      background-color: #0079C5;
+    }
+  }
+  
+}
+@media (max-width: 768px){
+  h1{
+    display: none;
+  }
+}
